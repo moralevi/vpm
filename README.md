@@ -1,6 +1,6 @@
 # 404NyanFound VPM
 
-VCC / ALCOM package repository for 404NyanFound's VRChat packages.
+VCC / ALCOM package repository for mora's VRChat packages.
 
 ## Add to VCC or ALCOM
 **Settings → Packages → Add Repository** and paste:
