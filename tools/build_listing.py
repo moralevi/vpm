@@ -8,10 +8,10 @@ Env: GITHUB_REPOSITORY (owner/name), GITHUB_TOKEN (optional, raises the API rate
 import hashlib, html, json, os, sys, urllib.request
 
 LISTING = {
-    "name": "404NyanFound",
+    "name": "moralevi VPM",
     "id": "com.nyanfound.vpm",
     "url": "https://moralevi.github.io/vpm/index.json",
-    "author": "404NyanFound",
+    "author": "Mora",
 }
 
 REPO = os.environ.get("GITHUB_REPOSITORY", "moralevi/vpm")
@@ -65,10 +65,11 @@ def main():
 
     items = "\n".join(f'<li><a href="{html.escape(u)}">{html.escape(n)} {html.escape(v)}</a></li>' for n, v, u in rows)
     with open(os.path.join(out, "index.html"), "w", encoding="utf-8") as f:
-        f.write(f"""<!doctype html><meta charset="utf-8"><title>404NyanFound VPM</title>
+        f.write(f"""<!doctype html><meta charset="utf-8"><title>moralevi VPM</title>
 <style>body{{font-family:system-ui,sans-serif;background:#16121f;color:#ece4ff;max-width:640px;margin:40px auto;padding:0 16px}}
 a{{color:#c9a2ff}}code{{background:#2b2338;padding:2px 6px;border-radius:4px}}</style>
-<h1>404NyanFound VPM</h1>
+<h1>moralevi VPM</h1>
+<p>VRChat packages by Mora. NekoToon is made for 404NyanFound.</p>
 <p>Add this repository in VCC or ALCOM (Settings &rarr; Packages &rarr; Add Repository):</p>
 <p><code>{html.escape(LISTING['url'])}</code></p>
 <h2>Packages</h2><ul>{items}</ul>
