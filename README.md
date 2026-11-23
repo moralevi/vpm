@@ -1,4 +1,4 @@
-# 404NyanFound VPM
+# moralevi VPM
 
 VCC / ALCOM package repository for mora's VRChat packages.
 
