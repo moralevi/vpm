@@ -1,5 +1,6 @@
 # Releases
 
+- NekoToon 1.12.0 - https://github.com/moralevi/vpm/releases/tag/nekotoon-v1.12.0
 - NekoToon 1.11.1 - https://github.com/moralevi/vpm/releases/tag/nekotoon-v1.11.1
 - NekoToon 1.11.0 - https://github.com/moralevi/vpm/releases/tag/nekotoon-v1.11.0
 - NekoToon 1.10.0 - https://github.com/moralevi/vpm/releases/tag/nekotoon-v1.10.0
